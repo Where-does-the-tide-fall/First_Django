@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     # 注册格式：‘子应用名.app.子应用配置类’
     'helloworld.apps.HelloworldConfig',
     'users.apps.UsersConfig',
+    'flying.apps.FlyingConfig',
+    'study.apps.StudyConfig'
 ]
 
 MIDDLEWARE = [
